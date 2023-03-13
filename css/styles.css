@@ -47,6 +47,7 @@ body {
 }
 
 .logo-span {
+  font-family: "Raleway" sans-serif;
   color: var(--navy-blue);
 }
 
