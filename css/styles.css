@@ -37,7 +37,7 @@ body {
 } */
 
 .logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -47,7 +47,6 @@ body {
 }
 
 .logo-span {
-  font-family: "Raleway" sans-serif;
   color: var(--navy-blue);
 }
 
@@ -96,6 +95,7 @@ body {
   color: var(--white);
 }
 .hero-button {
+  font-family: "Roboto", sans-serif;
   width: 169px;
   height: 56px;
   left: 636px;
@@ -114,13 +114,16 @@ body {
 
 .hero-button:focus,
 .hero-button:hover {
-  background: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /* Technology list */
 
 /* .technology {
 } */
+
+/* .technology-title{
+ } */
 
 /* .technology-list {
 } */
@@ -156,6 +159,7 @@ body {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--navy-blue);
 }
 
@@ -183,6 +187,7 @@ body {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--navy-blue);
 }
 
@@ -230,14 +235,18 @@ body {
 }
 
 .logo-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
+  color: var(--iris);
+  text-transform: uppercase;
+}
+
+.footer-span {
   color: var(--cloud);
-  text-decoration: none;
 }
 
 .footer-content {
