@@ -11,6 +11,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
+  background-color: var(--white);
 }
 
 .button {
@@ -98,8 +99,6 @@ body {
   font-family: "Roboto", sans-serif;
   width: 169px;
   height: 56px;
-  left: 636px;
-  top: 428px;
   background-color: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -107,7 +106,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--white);
 }
@@ -115,7 +113,6 @@ body {
 .hero-button:focus,
 .hero-button:hover {
   background-color: var(--ocean);
-  color: var(--ocean);
 }
 
 /* Technology list */
@@ -131,9 +128,6 @@ body {
 
 .technology-list-items {
   width: 264px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 .technology-items-name {
   font-weight: 500;
@@ -170,12 +164,8 @@ body {
 /* .product-list-items {
 } */
 
-.product-images {
-  width: 360px;
-  height: 300px;
-  left: 156px;
-  top: 1128px;
-}
+/* .product-images {
+} */
 
 /* Team */
 
@@ -196,10 +186,6 @@ body {
 } */
 
 .team-list-items {
-  width: 264px;
-  height: 380px;
-  left: 156px;
-  top: 1780px;
   background: var(--white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -291,19 +277,11 @@ body {
 /* .works-list {
 } */
 
-.works-items {
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
-}
+/* .works-items {
+} */
 
-.works-images {
-  width: 360px;
-  height: 300px;
-  left: 0px;
-  top: 0px;
-}
+/* .works-images {
+} */
 
 .works-image-name {
   font-weight: 500;
